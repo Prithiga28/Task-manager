@@ -1,0 +1,204 @@
+body {
+        background-image:url(images/bg2.jpg)
+      
+    }
+#taskTable{
+    padding-left: 0;
+    width: 500px;
+    height:90px;
+    text-align: center;
+    margin-top: 40px;
+    float: left;
+    padding-top: 150px;
+}
+.table-container h2,#filter h3,select{
+    margin-left: 30px;
+}
+.table-container{
+    margin-top: 30px; 
+}
+.table-container h2{
+    margin-left: 250px;
+        text-align: center;
+        margin-top: 0; 
+        margin-bottom: 20px; 
+        color: #333; 
+}
+    .table1{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+    .table1:hover{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    }
+#filter{
+    margin-top: 30px;
+}
+#taskTable{
+    display: inline;
+}
+table tr {
+    background-color: rgb(207, 207, 207);
+}
+
+tr:hover {
+    background-color: #c9c9c9;
+}
+
+#task-val1{
+    margin-top: 20px;
+    margin-left: 3px;
+    width:100px;
+
+}
+
+input {
+    margin-bottom: 30px;
+    width: 130px;
+}
+
+.user-input {
+    margin-left: 40px;
+}
+.btn-update {
+    background-color: rgb(240, 240, 169);
+    color: black;
+    border-width: 1px;
+}
+
+.btn-update:hover {
+    background-color: rgb(223, 223, 69);
+}
+.btn-danger{
+    background-color: rgb(232, 102, 102);
+    color:white;
+
+}
+.btn-danger:hover{
+    background-color: rgb(220, 53, 53);
+}
+
+.timer-container {
+    width: 250px;
+    height: 250px; 
+    background-color: #f0f0f0;
+     border-radius: 50%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center; 
+     position: absolute; 
+     top: 45%; 
+     right: 150px; 
+     transform: translateY(-50%); 
+ }
+ .timer-container:hover{
+    background-color: rgb(209, 209, 209);
+ }
+
+.stopwatch { 
+    font-size: 24px;
+    margin-bottom: 50px;
+    
+}
+.timer-container {
+    text-align: center;
+
+}
+
+.stopwatch {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#time {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons-container button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    visibility: visible;
+}
+
+.buttons-container button:last-child {
+    margin-right: 0;
+}
+
+.buttons-container button:hover {
+    background-color: #0056b3;
+}
+.stopwatch:hover {
+    border-radius: 50%; /* Apply border-radius on hover */
+    background-color: rgb(209, 209, 209);
+
+}
+#addTask{
+    float: right;
+    margin-top: 390px;
+    margin-right: 230px;
+    background-color:rgb(164, 164, 164);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#addTask:hover{
+    background-color: rgb(65, 176, 65);
+}
+.container {
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px;
+    margin-top: 120px;
+    background-color: #f2f2f2; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666; 
+}
+
+#emailId,#password{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #333; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: #555; 
+}
+.table1{
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: center;
+    width:500px;
+    border-radius: 5px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timer-container">
+        <div class="stopwatch">
+            <div id="time">00:00:00</div>
+            <div class="buttons-container">
+                <button id="start-stop-button">Start</button>
+                <button id="reset">Reset</button>
+
+            </div>
+            
+        </div>
+    </div>
+    <div>
+        <button id="addTask">Add Task</button>
+    </div>
+
+        <div class="table-container">
+            <h2>Task Manager</h2>
+            <div id="filter">
+                <h3 style="display: inline;">Filter by :</h3>
+                <select id="select">
+                    <option value="all tasks">all tasks</option>
+                    <option value="meeting">meeting</option>
+                    <option value="Personal break">Personal break</option>
+                    <option value="project-abc">project-abc</option>
+                </select>
+            </div>
+            <table class="table1" border="1px">
+                <thead>
+                    <tr>
+                        <td>Task</td>
+                        <td>Description</td>
+                        <td>Duration</td>
+                    </tr>
+                </thead>
+                <tbody id="body">
+                </tbody>
+            </table>
+    <script src="index.js"></script>
+</body>
+</html>
